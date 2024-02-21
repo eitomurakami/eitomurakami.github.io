@@ -8,7 +8,11 @@
     <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
     
     <body style="margin : 0px; overflow: hidden;">
+<<<<<<< HEAD
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
+=======
+        <!-- Use AR.js in AFRAME with MatrixCodeType markers -->
+>>>>>>> db233f9 (Add marker image)
         <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
         <a-assets>
@@ -18,7 +22,12 @@
         <a-marker id="animated-marker" type="barcode" value="6">
             <a-entity
                 gltf-model="#animated-asset"
+<<<<<<< HEAD
                 scale="2">
+=======
+                scale="2"
+			    rotation="0 0 0">
+>>>>>>> db233f9 (Add marker image)
             </a-entity>
         </a-marker>
 
